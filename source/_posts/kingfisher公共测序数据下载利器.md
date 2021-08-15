@@ -2,6 +2,7 @@
 title: 翠鸟（kingfisher）公共测序数据下载利器
 date: 2021-08-14 15:36:58
 tags: 工具
+categories: 工具
 ---
 
 ## 写在前面
