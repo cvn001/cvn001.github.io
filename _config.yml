@@ -55,11 +55,6 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'tomorrow'
-  line_number: false    # default false
-  custom_css:
 
 search:
   path: search.xml
@@ -118,3 +113,8 @@ deploy:
   repo:
     github: git@github.com:cvn001/cvn001.github.io.git
   branch: master
+
+prism_plugin:
+  mode: 'preprocess' # realtime/preprocess
+  theme: 'default'
+  line_number: false # default false

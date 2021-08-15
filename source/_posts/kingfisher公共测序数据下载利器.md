@@ -23,12 +23,27 @@ categories: 工具
 
 ### 安装
 
-如下所示，Kingfisher可以从通过conda软件包管理系统直接安装，注意在conda中添加`conda-forge`和`bioconda`这两个源。
+如下所示，Kingfisher可以从通过conda软件包管理系统直接安装（创建一个kingfisher环境），注意在conda中添加`conda-forge`和`bioconda`这两个源。
 
 ```bash
 conda create -c conda-forge -c bioconda -n kingfisher pigz python extern curl sra-tools pandas requests aria2
+```
+
+激活kingfisher环境。
+
+```bash
 conda activate kingfisher
+```
+
+安装必要的python包。
+
+```bash
 pip install bird_tool_utils'>='0.2.17
+```
+
+下载安装最新的kingfisher源码，并将可执行文件加入到环境变量中。
+
+```bash
 git clone https://github.com/wwood/kingfisher-download
 cd kingfisher-download/bin
 export PATH=$PWD:$PATH
